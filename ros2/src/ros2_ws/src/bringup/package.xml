@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypelayout="1.0"?>
+<package format="3">
+  <name>bringup</name>
+  <version>0.0.0</version>
+  <description>Bringup package for robot nodes</description>
+  <maintainer email="user@todo.todo">user</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>launch_ros</depend>
+  
+  <exec_depend>vel_to_sticks</exec_depend>
+  <exec_depend>weapon_controllerr</exec_depend>
+  <exec_depend>vision_pose</exec_depend>
+  <exec_depend>vel_tunner</exec_depend>
+  <exec_depend>velocity_help_node</exec_depend>
+
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
